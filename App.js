@@ -14,6 +14,7 @@ import theme from './src/global/theme';
 import Greetings from './src/pages/Greetings';
 import Home from './src/pages/Home';
 import MainStack from './src/navigation/MainStack';
+import List from './src/pages/List';
 
 export default function App() {
 

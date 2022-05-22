@@ -1,20 +1,33 @@
 export default [
     {
-        categorie: 'Hotéis'
+        categorie: 'Hotéis',
+        image: require('../assets/homeCards/hotel.jpg'),
+        itens: [
+            {
+                title: 'Casa girassol',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+        ]
     },
     {
-        categorie: 'Atividades'
+        categorie: 'Atividades',
+        image: require('../assets/homeCards/activities.jpg'),
     },
     {
-        categorie: 'Restaurantes'
+        categorie: 'Restaurantes',
+        image: require('../assets/homeCards/restaurants.jpg'),
     },
     {
-        categorie: 'Cafeterias'
+        categorie: 'Cafeterias',
+        image: require('../assets/homeCards/cafe.jpg'),
     },
     {
-        categorie: 'Passeios'
+        categorie: 'Passeios',
+        image: require('../assets/homeCards/tour.jpg'),
     },
     {
-        categorie: 'Ar livre'
+        categorie: 'Ar livre',
+        image: require('../assets/homeCards/openAir.jpg'),
     },
 ]

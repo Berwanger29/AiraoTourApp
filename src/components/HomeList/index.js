@@ -4,14 +4,14 @@ import {
     Lista,
 } from './styles'
 
-import CategorieItem from '../CategorieItem'
+import HomeItem from '../HomeItem'
 
 const HomeList = ({ data }) => {
     return (
         <Container>
             <Lista
                 data={data}
-                renderItem={({ item }) => <CategorieItem categorie={item} />}
+                renderItem={({ item }) => <HomeItem categorie={item} />}
                 numColumns={2}
             //showVerticalIndicator={false}
             />

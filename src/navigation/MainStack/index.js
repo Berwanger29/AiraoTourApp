@@ -6,6 +6,7 @@ const Stack = createNativeStackNavigator()
 
 import Greetings from '../../pages/Greetings';
 import Home from '../../pages/Home';
+import List from '../../pages/List';
 
 const MainStack = () => {
     return (
@@ -22,6 +23,14 @@ const MainStack = () => {
                 <Stack.Screen
                     name='Home'
                     component={Home}
+                    options={{
+                        headerShown: false
+                    }}
+                />
+
+                <Stack.Screen
+                    name='List'
+                    component={List}
                     options={{
                         headerShown: false
                     }}
