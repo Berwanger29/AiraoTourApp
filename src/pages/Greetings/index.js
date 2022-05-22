@@ -11,11 +11,18 @@ import {
     ButtonText
 } from './styles'
 
-
 import LogoWhite from '../../../assets/svgComponents/LogoWhite'
+
+import { useNavigation } from '@react-navigation/native'
 
 
 const Greetings = () => {
+
+    const navigation = useNavigation()
+    function handleNavigation(){
+        navigation.navigate('Home')
+    }
+
     return (
         <Container>
             <ContainerBackgroundImg
@@ -33,7 +40,7 @@ const Greetings = () => {
                         </Texto>
                         <Button
                             activeOpacity={0.7}
-                            onPress={() => { }}
+                            onPress={() => handleNavigation()}
                         >
                             <ButtonText>
                                 Desobrir

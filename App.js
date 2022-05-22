@@ -13,6 +13,7 @@ import theme from './src/global/theme';
 
 import Greetings from './src/pages/Greetings';
 import Home from './src/pages/Home';
+import MainStack from './src/navigation/MainStack';
 
 export default function App() {
 
@@ -30,7 +31,7 @@ export default function App() {
     <>
       <StatusBar style="auto" />
       <ThemeProvider theme={theme}>
-        <Home />
+        <MainStack />
       </ThemeProvider>
     </>
   );
