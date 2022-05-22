@@ -1,15 +1,19 @@
 import styled from 'styled-components/native'
-import { RFValue } from 'react-native-responsive-fontsize'
+import { RFPercentage, RFValue } from 'react-native-responsive-fontsize'
 
 export const CardContainer = styled.View`
-    background-color: green;
-    width: ${RFValue(114)}px;
-    height: ${RFValue(112)}px;
+    background-color: ${(props) => props.theme.colors.primary};
+    width: ${RFPercentage(18.5)}px;
+    height: ${RFPercentage(16)}px;
     align-items: center;
     justify-content: center;
-    margin-left: ${RFValue()};
+    margin-right: ${RFValue(30)}px;
+    margin-bottom: ${RFValue(17)}px;
+    border-radius: 5px;
 `
 
 export const Label = styled.Text`
     font-family: ${(props) => props.theme.fonts.regular};
+    font-size: ${RFValue(10)}px;
+    color: ${(props) => props.theme.colors.white} ;
 `

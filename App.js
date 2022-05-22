@@ -1,5 +1,9 @@
 import { StatusBar } from 'react-native';
-import { ActivityIndicator } from 'react-native';
+import {
+  View,
+  Text,
+  ActivityIndicator,
+} from 'react-native';
 
 
 
@@ -31,4 +35,10 @@ export default function App() {
     </>
   );
 }
+
+
+
+
+
+
 

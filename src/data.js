@@ -6,7 +6,7 @@ export default [
         categorie: 'Atividades'
     },
     {
-        categorie: 'Restarantes'
+        categorie: 'Restaurantes'
     },
     {
         categorie: 'Cafeterias'
@@ -15,6 +15,6 @@ export default [
         categorie: 'Passeios'
     },
     {
-        categorie: 'Arlivre'
+        categorie: 'Ar livre'
     },
 ]

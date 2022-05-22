@@ -13,6 +13,7 @@ const HomeList = ({ data }) => {
                 data={data}
                 renderItem={({ item }) => <CategorieItem categorie={item} />}
                 numColumns={2}
+            //showVerticalIndicator={false}
             />
         </Container>
     )
