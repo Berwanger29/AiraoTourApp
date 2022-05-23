@@ -5,6 +5,61 @@ export default [
         itens: [
             {
                 title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
+                description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
+                image: require('../assets/homeCards/hotel.jpg'),
+            },
+            {
+                title: 'Casa girassol',
+                preview: 'Linda casa situada na entrada de Novo',
                 description: 'Linda casa situada na entrada de Novo Airao. Possui amplo estacionamento que cabe até um caminhão. Dentro possui uma cozinha, mesa de trabalho, banheiro com chuveiro elétrico e no quatro tem ar condicionado split com TV chromecast',
                 image: require('../assets/homeCards/hotel.jpg'),
             },

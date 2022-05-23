@@ -8,6 +8,5 @@ export const Container = styled.View`
 
 export const Optionslist = styled.FlatList`
     flex: 1;
-    background-color: red;
     padding: 0px ${RFValue(30)}px;
 `

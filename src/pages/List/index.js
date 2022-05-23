@@ -11,10 +11,6 @@ const List = ({ route }) => {
 
     const { title, data } = route.params
 
-    // useEffect(() => {
-    //     console.log('++++++++++++++++++++++')
-    //     console.log(data)
-    // }, [])
 
     return (
         <Container>

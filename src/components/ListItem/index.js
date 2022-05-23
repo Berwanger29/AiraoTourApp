@@ -7,6 +7,8 @@ import {
 
 import ListCard from '../ListCard'
 
+
+
 const ListItem = ({ data }) => {
 
     useEffect(() => {
@@ -18,7 +20,13 @@ const ListItem = ({ data }) => {
         <Container>
             <Optionslist
                 data={data}
-                renderItem={({ item }) => <ListCard title={item.title} description={item.description} />}
+                renderItem={({ item }) => (
+                    <ListCard
+                        title={item.title}
+                        preview={item.preview}
+                        image={item.image}
+                        description={item.description}
+                    />)}
             />
         </Container>
     )
