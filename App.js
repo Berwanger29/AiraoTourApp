@@ -1,7 +1,5 @@
-import { StatusBar } from 'react-native';
+import { StatusBar, } from 'react-native';
 import {
-  View,
-  Text,
   ActivityIndicator,
 } from 'react-native';
 
@@ -28,6 +26,9 @@ export default function App() {
     return <ActivityIndicator />
   }
 
+
+  console.disableYellowBox = true
+
   return (
     <>
       <StatusBar style="auto" />
@@ -37,10 +38,3 @@ export default function App() {
     </>
   );
 }
-
-
-
-
-
-
-

@@ -8,9 +8,10 @@ export const Container = styled.View`
 
 
 export const ImageContainer = styled.View`
-    width: 100%;
-    height: ${RFValue(320)}px;
-    background-color: red;
+    /* width: 100%;
+    height: ${RFValue(320)}px; */
+
+    flex: 0.7;
     `
 
 export const ImageBckg = styled.ImageBackground`
@@ -54,17 +55,35 @@ export const SubTitle = styled.Text`
 
 export const DescriptionContainer = styled.View`
     background-color: ${(props) => props.theme.colors.primary};
-    width: 100%;
+    flex: 0.8;
     height: ${RFPercentage(62)}px;
 
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 
-    margin-top:${RFValue(-30)}px;
+    margin-top:${RFValue(-40)}px;
     padding: ${RFValue(33)}px;
 
     justify-content: space-between;
 `
+
+export const LikeContainer = styled.View`
+    background-color: ${(props) => props.theme.colors.white};
+    width: ${RFValue(55)}px;
+    height: ${RFValue(55)}px;
+    border-radius: ${RFValue(27.5)}px;
+
+    margin-top: ${RFValue(-60)}px;
+    align-self: flex-end;
+
+    align-items: center;
+    justify-content: center;
+`
+
+export const LikeButton = styled.TouchableOpacity`
+
+`
+
 export const ScrollDescription = styled.ScrollView`
     
 `
@@ -88,5 +107,6 @@ export const Description = styled.Text`
 export const IconsBottomContainer = styled.View`
     flex-direction: row;
     justify-content:center ;
-    margin-top: ${RFValue(13)}px;
+    padding-top: ${RFValue(1)}px;
+    margin-bottom: ${RFValue(-15)}px;
 `

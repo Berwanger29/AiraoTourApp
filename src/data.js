@@ -85,4 +85,55 @@ export default [
         categorie: 'Ar livre',
         image: require('../assets/homeCards/openAir.jpg'),
     },
+    ,
+    {
+        categorie: 'Restaurantes',
+        image: require('../assets/homeCards/restaurants.jpg'),
+    },
+    {
+        categorie: 'Cafeterias',
+        image: require('../assets/homeCards/cafe.jpg'),
+    },
+    {
+        categorie: 'Passeios',
+        image: require('../assets/homeCards/tour.jpg'),
+    },
+    {
+        categorie: 'Ar livre',
+        image: require('../assets/homeCards/openAir.jpg'),
+    },
+    ,
+    {
+        categorie: 'Restaurantes',
+        image: require('../assets/homeCards/restaurants.jpg'),
+    },
+    {
+        categorie: 'Cafeterias',
+        image: require('../assets/homeCards/cafe.jpg'),
+    },
+    {
+        categorie: 'Passeios',
+        image: require('../assets/homeCards/tour.jpg'),
+    },
+    {
+        categorie: 'Ar livre',
+        image: require('../assets/homeCards/openAir.jpg'),
+    },
+    ,
+    {
+        categorie: 'Restaurantes',
+        image: require('../assets/homeCards/restaurants.jpg'),
+    },
+    {
+        categorie: 'Cafeterias',
+        image: require('../assets/homeCards/cafe.jpg'),
+    },
+    {
+        categorie: 'Passeios',
+        image: require('../assets/homeCards/tour.jpg'),
+    },
+    {
+        categorie: 'Ar livre',
+        image: require('../assets/homeCards/openAir.jpg'),
+    },
 ]

@@ -2,12 +2,11 @@ import styled from 'styled-components/native'
 import { RFPercentage, RFValue } from 'react-native-responsive-fontsize'
 
 export const CardContainer = styled.TouchableOpacity`
+    flex: 1;
     background-color: ${(props) => props.theme.colors.primary};
-    width: ${RFPercentage(18.5)}px;
     height: ${RFPercentage(16)}px;
 
-    margin-right: ${RFValue(30)}px;
-    margin-bottom: ${RFValue(17)}px;
+    margin: ${RFValue(8.5)}px ${RFValue(7.5)}px; 
     border-radius: 5px;
 `
 

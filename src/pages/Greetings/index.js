@@ -43,7 +43,7 @@ const Greetings = () => {
                             onPress={() => handleNavigation()}
                         >
                             <ButtonText>
-                                Desobrir
+                                Descobrir
                             </ButtonText>
                         </Button>
                     </ContentContainer>

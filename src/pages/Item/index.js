@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
     Container,
     DescriptionContainer,
@@ -13,7 +13,9 @@ import {
     Adress,
     Description,
     IconsBottomContainer,
-    ScrollDescription
+    ScrollDescription,
+    LikeButton,
+    LikeContainer
 } from './styles'
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -29,6 +31,22 @@ const Item = ({ route }) => {
     const navigation = useNavigation()
     function handleGoBack() {
         navigation.goBack()
+    }
+
+
+    const [isLiked, setIsLiked] = useState(false)
+    const [heartIcon, setHeartIcon] = useState('cards-heart-outline')
+    function toggleLikeButton() {
+
+        if (isLiked) {
+            setIsLiked(!isLiked)
+            setHeartIcon('cards-heart')
+        }
+
+        if (!isLiked) {
+            setIsLiked(!isLiked)
+            setHeartIcon('cards-heart-outline')
+        }
     }
 
     return (
@@ -56,6 +74,14 @@ const Item = ({ route }) => {
                 </ImageBckg>
             </ImageContainer>
             <DescriptionContainer>
+                <LikeContainer>
+                    <LikeButton
+                        style={{ elevation: 5 }}
+                        onPress={() => toggleLikeButton()}
+                    >
+                        <MaterialCommunityIcons name={heartIcon} size={RFValue(20)} color={theme.colors.red} />
+                    </LikeButton>
+                </LikeContainer>
                 <ScrollDescription
                     showsVerticalScrollIndicator={false}
                 >
