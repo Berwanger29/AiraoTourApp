@@ -1,7 +1,6 @@
-import { StatusBar, } from 'react-native';
-import {
-  ActivityIndicator,
-} from 'react-native';
+
+import { StatusBar, ActivityIndicator } from 'react-native';
+
 
 
 
@@ -13,6 +12,7 @@ import Greetings from './src/pages/Greetings';
 import Home from './src/pages/Home';
 import MainStack from './src/navigation/MainStack';
 import List from './src/pages/List';
+import DrawerNav from './src/navigation/DrawerNav';
 
 export default function App() {
 
@@ -33,7 +33,7 @@ export default function App() {
     <>
       <StatusBar style="auto" />
       <ThemeProvider theme={theme}>
-        <MainStack />
+        <DrawerNav />
       </ThemeProvider>
     </>
   );

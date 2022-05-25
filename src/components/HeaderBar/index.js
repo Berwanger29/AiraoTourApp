@@ -1,29 +1,38 @@
 import React from 'react'
 
 import {
+    ButtonContainer,
     Container,
     IconsContainer,
-    InputContainer,
 } from './styles'
 
-import SearchBar from '../SearchBar';
 import LogoWhite from '../../../assets/svgComponents/LogoWhite'
 import { MaterialIcons } from '@expo/vector-icons';
 import theme from '../../global/theme';
 
+import { useNavigation } from '@react-navigation/native';
+
 
 
 const HeaderBar = () => {
+
+    const navigation = useNavigation();
+    function drawerMenu() {
+        navigation.openDrawer()
+    }
+
     return (
         <Container>
             <IconsContainer>
                 <LogoWhite />
 
-                <MaterialIcons name="menu" size={24} color={theme.colors.white} />
+                <ButtonContainer
+                    activeOpacity={0.5}
+                    onPress={() => drawerMenu()}
+                >
+                    <MaterialIcons name="menu" size={24} color={theme.colors.white} />
+                </ButtonContainer>
             </IconsContainer>
-            <InputContainer>
-                
-            </InputContainer>
         </Container>
     )
 }

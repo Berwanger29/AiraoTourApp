@@ -107,6 +107,6 @@ export const Description = styled.Text`
 export const IconsBottomContainer = styled.View`
     flex-direction: row;
     justify-content:center ;
-    padding-top: ${RFValue(1)}px;
+    padding-top: ${RFValue(10)}px;
     margin-bottom: ${RFValue(-15)}px;
 `

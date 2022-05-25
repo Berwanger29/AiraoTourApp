@@ -38,15 +38,15 @@ const Item = ({ route }) => {
     const [heartIcon, setHeartIcon] = useState('cards-heart-outline')
     function toggleLikeButton() {
 
-        if (isLiked) {
-            setIsLiked(!isLiked)
-            setHeartIcon('cards-heart')
-        }
-
         if (!isLiked) {
-            setIsLiked(!isLiked)
+            setIsLiked(true)
+            setHeartIcon('cards-heart')
+        } else if (isLiked) {
+            setIsLiked(false)
             setHeartIcon('cards-heart-outline')
         }
+
+
     }
 
     return (

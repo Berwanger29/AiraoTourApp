@@ -14,7 +14,6 @@ export const IconsContainer = styled.View`
     justify-content: space-between;
     width: 100%;
 `
-
-export const InputContainer = styled.View`
-    padding-top: ${RFValue(62.5)}px;
+export const ButtonContainer = styled.TouchableOpacity`
+    
 `

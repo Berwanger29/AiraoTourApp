@@ -11,8 +11,8 @@ import Item from '../../pages/Item';
 
 const MainStack = () => {
     return (
-        <NavigationContainer>
-            <Stack.Navigator>
+
+            <Stack.Navigator initialRouteName='Greetings'>
                 <Stack.Screen
                     name='Greetings'
                     component={Greetings}
@@ -45,7 +45,6 @@ const MainStack = () => {
                     }}
                 />
             </Stack.Navigator>
-        </NavigationContainer>
     )
 }
 
