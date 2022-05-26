@@ -7,14 +7,33 @@ const Drawer = createDrawerNavigator();
 
 import Greetings from '../../pages/Greetings'
 import MainStack from '../MainStack';
+import Favorites from '../../pages/Favorites';
+import Articles from '../../pages/Articles';
 
 const DrawerNav = () => {
     return (
         <NavigationContainer>
-            <Drawer.Navigator initialRouteName='MainStack'>
+            <Drawer.Navigator
+                initialRouteName='MainStack'
+                screenOptions={{ drawerPosition: 'right' }}
+            >
                 <Drawer.Screen
-                    name='MainStack'
+                    name='Home'
                     component={MainStack}
+                    options={{
+                        headerShown: false
+                    }}
+                />
+                <Drawer.Screen
+                    name='Favoritos'
+                    component={Favorites}
+                    options={{
+                        headerShown: false
+                    }}
+                />
+                <Drawer.Screen
+                    name='Artigos'
+                    component={Articles}
                     options={{
                         headerShown: false
                     }}

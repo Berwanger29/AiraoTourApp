@@ -5,19 +5,23 @@ import HeaderBar from '../../components/HeaderBar'
 import ListItem from '../../components/ListItem'
 import SearchBar from '../../components/SearchBar'
 import TitleLabel from '../../components/TitleLabel'
+
 import {
-    Container, InputContainer, Waitingtext,
+    Container,
+    InputContainer
 } from './styles'
+
 
 
 import Lottie from 'lottie-react-native'
 import waiting from '../../../assets/waiting.json'
+import EmptyContent from '../../components/EmptyContent'
 
 
 const List = ({ route }) => {
-    
+
     const { title, data } = route.params
-    
+
 
 
     return (
@@ -39,14 +43,7 @@ const List = ({ route }) => {
 
             {!data &&
                 <>
-                    <Lottie
-                        source={waiting}
-                        autoPlay
-                        loop
-                    />
-                    <Waitingtext>
-                        Oops ! Nada por aqui ainda...
-                    </Waitingtext>
+                    <EmptyContent />
                 </>
             }
         </Container>

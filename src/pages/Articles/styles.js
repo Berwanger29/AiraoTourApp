@@ -5,14 +5,13 @@ export const Container = styled.View`
     flex: 1;
     background-color: ${(props) => props.theme.colors.white};
 `
+
 export const InputContainer = styled.View`
     align-items: center;
     margin-top: ${RFValue(-20)}px;
 `
 
-export const Waitingtext = styled.Text`
-    align-self: center;
-    font-size: ${RFValue(15)}px;
-    font-family: ${(props) => props.theme.fonts.regular};
-    color: ${(props) => props.theme.colors.olive};
+export const ArticlesContainer = styled.View`
+    flex: 1;
+    padding-top: ${RFValue(20)}px;
 `

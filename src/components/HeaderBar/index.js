@@ -18,7 +18,7 @@ const HeaderBar = () => {
 
     const navigation = useNavigation();
     function drawerMenu() {
-        navigation.openDrawer()
+        navigation.toggleDrawer()
     }
 
     return (

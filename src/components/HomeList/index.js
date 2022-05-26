@@ -13,7 +13,7 @@ const HomeList = ({ data }) => {
                 data={data}
                 renderItem={({ item }) => <HomeItem categorie={item} />}
                 numColumns={2}
-            //showVerticalIndicator={false}
+                showsVerticalScrollIndicator={false}
             />
         </Container>
     )

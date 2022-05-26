@@ -55,8 +55,6 @@ const HomeItem = ({ categorie }) => {
                 setIconName('beach-access')
                 break;
         }
-
-        console.log(categorie.itens)
     }, [])
 
     return (
